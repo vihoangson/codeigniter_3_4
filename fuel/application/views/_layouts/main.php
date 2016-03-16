@@ -1,5 +1,5 @@
 <?php $this->load->view('_blocks/header')?>
-	
+	<h1><?php echo fuel_var('heading')?></h1>
 	<section id="main_inner">
 		<?php echo fuel_var('body', 'This is a default layout. To change this layout go to the fuel/application/views/_layouts/main.php file.'); ?>
 	</section>
